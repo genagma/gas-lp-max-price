@@ -1,0 +1,26 @@
+name: GasLPMaxPrice
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pandas==1.5.2
+    - prefect==2.7.7
+    - prefect-sqlalchemy==0.2.2
+    - prefect-gcp[cloud_storage]==0.2.3
+    - prefect-github
+    - protobuf
+    - pyarrow
+    - pandas-gbq
+    - psycopg2-binary
+    - notebook
+    - pgcli
+    - sqlalchemy
+    - wget
+    - google-cloud-bigquery
+    - dbt-core
+    - dbt-bigquery
+    - dbt-postgres
+    - pyspark
+    - parquet-tools
+    - tabula-py
+    - gazpacho

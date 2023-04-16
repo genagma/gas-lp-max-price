@@ -1,0 +1,6 @@
+# files
+*.pdf
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
