@@ -55,4 +55,23 @@ Las tablas con los datos se encuentran en documentos PDF en la página web menci
 
 Los archivos CVS y Parquet son almacenadas en un Data Lake en Google Cloud Storage (GCS).
 
+## Setup
+glpmax-service-account
 
+create service account
+
+export google credentials variable
+
+set roles for the service account
+    BigQuery Admin
+    Storage Admin
+    Storage Object Admin
+    Viewer
+
+enable apis iam, iamcredentials
+https://console.cloud.google.com/apis/library/iam.googleapis.com
+https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com
+
+gcloud config set project <your_project_name>
+
+terraform init plan apply
